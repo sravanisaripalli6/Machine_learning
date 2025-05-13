@@ -25,8 +25,8 @@ sentiment_analyzer = pipeline("sentiment-analysis")
 
 # Initialize Reddit API (PRAW)
 reddit = praw.Reddit(
-    client_id="F8_2CeJuWfZEzAs7IHRZrg",
-    client_secret="9cHbpnEITPz6OMfIBgxu2bK8-35Sxg",
+    client_id="YourClientID",
+    client_secret="YourClientSecret",
     user_agent="LLM_Sentiment_Analysis"
 )
 
