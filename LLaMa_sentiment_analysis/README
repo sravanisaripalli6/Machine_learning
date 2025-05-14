@@ -1,0 +1,28 @@
+LLaMA Reddit Sentiment Analysis
+This project performs sentiment analysis on Reddit posts mentioning LLaMA (Large Language Model Meta
+AI). It extracts the top 1000 posts from relevant AI subreddits and classifies public sentiment as positive,
+negative, or neutral using NLP.
+Features:
+- Fetches top 1000 recent Reddit posts containing the keyword "LLaMA"
+- Uses Hugging Face Transformers for sentiment classification
+- Filters for English posts
+- Generates a cleaned word cloud
+- Creates a sentiment distribution pie chart
+- Lists Top 5 most positive and negative posts
+- Outputs structured report and CSV
+Folder Structure:
+- llama_reddit_sentiment_analysis.csv: Sentiment results
+- llama_reddit_report_summary.txt: Summary of top posts
+- sentiment_analysis_LLaMa.py: Main script
+- README.pdf: This document
+Tech Stack:
+- Python 3.9+, Reddit API (PRAW), Transformers, spaCy, NLTK, Matplotlib, WordCloud
+How to Run:
+1. Create Reddit API keys at reddit.com/prefs/apps
+2. Set up credentials in the script
+3. Run: python sentiment_analysis_LLaMa.py
+Output:
+- Word cloud
+- Sentiment distribution chart
+- CSV with full results
+- Summary TXT with top posts
